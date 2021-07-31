@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Tourney', sans-serif;
+    outline: none;
+}
+
+.centre {
+    margin-top: 64px;
+    padding-left: calc(50vw - 130px);
+    padding-right: calc(50vw - 130px);
+}
+
+.sqMain {
+    width: 260px;
+    height: 160px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    flex-direction: column;
+    position: relative;
+}
+
+.sqIn {
+
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 38px;
+    margin-right: 26px;
+}
+
+.cicleBlock {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 2px;
+
+}
+
+.t {
+    font-size: 4px;
+    text-align: center;
+}
+
+.cicle {
+    font-size: 8px;
+    color: grey;
+    margin: 0 2px;
+}
+
+.active {
+    color: black;
+}
+
+#number {
+    width: 90px;
+    height: 60px;
+    margin-right: 10px;
+    font-size: 55px;
+    text-align: end;
+    border-radius: 5px;
+}
+
+.mainDisplay {
+    background-color: rgba(234, 245, 240, 0.788);
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: inset 0 0 4px 1px black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.display {
+    font-size: 36px;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 50px;
+    font-size: 11px;
+    background-color: gray;
+    border: 1px solid #000;
+}
+
+.btn:hover {
+    box-shadow: inset 0 0 5px -1px black;
+
+}
+
+.btn:active {
+    box-shadow: inset 0 0 6px 0px black;
+
+}
+
+.btn1 {
+    border-radius: 0 10px 0 20px;
+}
+
+.btn2 {
+    border-radius: 10px 10px 0 0;
+}
+
+.btn3 {
+    border-radius: 10px 10px 0 0;
+}
+
+.btn4 {
+    border-radius: 10px 0px 20px 0;
+}
+
+.btnText {
+    text-align: center;
+    font-size: 10px;
+}
+
+.label {
+    font-size: 12px;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    height: 26px;
+    border: 1px solid darkgrey;
+    text-align: center;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 4px;
+    opacity: 0.8;
+
+}
+
+
+.invisibleBtn {
+    display: none;
+}
